@@ -344,7 +344,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wee_alloc-0.4.5/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/cadf4aaad9f5a31306b30d85bd92b8d87bc1d52e/chunk-001.nq.gz",
+      "dep": "dep/cadf4aaad9f5a31306b30d85bd92b8d87bc1d52e.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
