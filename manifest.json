@@ -153,6 +153,197 @@
       ],
       "ast": [
         "aggregate/ast/cadf4aaad9f5a31306b30d85bd92b8d87bc1d52e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/cadf4aaad9f5a31306b30d85bd92b8d87bc1d52e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.7.3",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "074cb6a997f91db653f8a53c755ddc07495ab429",
+          "githubTag": "0.7.3",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.7.3/src/lib.rs"
+        },
+        {
+          "packageName": "rand_core",
+          "ecosystem": "CARGO",
+          "version": "0.5.1",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_core",
+          "githubCommit": "d877ed528248b52d947e0484364a4e1ae59ca502",
+          "githubTag": "v0.5.1",
+          "githubUrl": "https://github.com/rust-random/rand_core",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.5.1/src/lib.rs"
+        },
+        {
+          "packageName": "borsh",
+          "ecosystem": "CARGO",
+          "version": "0.7.0",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.7.0/src/ser/mod.rs"
+        },
+        {
+          "packageName": "quickcheck",
+          "ecosystem": "CARGO",
+          "version": "0.9.2",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "quickcheck",
+          "githubCommit": "6dfb03ab5740e47204acb0151c75f31a6e91bce3",
+          "githubTag": "0.9.2",
+          "githubUrl": "https://github.com/BurntSushi/quickcheck",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quickcheck-0.9.2/src/tester.rs"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.105",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "69653a762d3da40f63e748e84a860cd4484ad8bf",
+          "githubTag": "v1.0.105",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.105/src/ser/mod.rs"
+        },
+        {
+          "packageName": "near-vm-logic",
+          "ecosystem": "CARGO",
+          "version": "2.0.0",
+          "githubOrg": "near",
+          "githubRepo": "nearcore",
+          "githubCommit": "1e199ded60b51fa8d4f1001491a0c39c92393ff0",
+          "githubTag": "2.0.0",
+          "githubUrl": "https://github.com/near/nearcore",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/near-vm-logic-2.0.0/src/types.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.3",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "e0300930fa4a8b448c4ff39f499dd4d2fcb0f17d",
+          "githubTag": "1.0.3",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.3/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "1.0.57",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "d58d7cbe55a3160045db000802ca4c097bf774a1",
+          "githubTag": "1.0.57",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-1.0.57/src/lib.rs"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.24",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "d2c09ab64006df180b2a41b2050336e73a7a531c",
+          "githubTag": "1.0.24",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.24/src/lib.rs"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.48",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "ed479b4656be48760f3d3373d0fe476541e94e0e",
+          "githubTag": "v1.0.48",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.48/src/de.rs"
+        },
+        {
+          "packageName": "bs58",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "Nullus157",
+          "githubRepo": "bs58-rs",
+          "githubCommit": "85440ecbdfc08e813b2f1c316ca690ab8205a42c",
+          "githubTag": "0.3.0",
+          "githubUrl": "https://github.com/Nullus157/bs58-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.3.0/src/lib.rs"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.24",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "9e0884f273a0fe619462de4b2976abc3c4ca6f93",
+          "githubTag": "1.0.24",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/trybuild-1.0.24/src/lib.rs"
+        },
+        {
+          "packageName": "near-runtime-fees",
+          "ecosystem": "CARGO",
+          "version": "2.0.0",
+          "githubOrg": "nearprotocol",
+          "githubRepo": "nearcore",
+          "githubCommit": "1e199ded60b51fa8d4f1001491a0c39c92393ff0",
+          "githubTag": "2.0.0",
+          "githubUrl": "https://github.com/nearprotocol/nearcore",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/near-runtime-fees-2.0.0/src/lib.rs"
+        },
+        {
+          "packageName": "Inflector",
+          "ecosystem": "CARGO",
+          "version": "0.11.4",
+          "githubOrg": "whatisinternet",
+          "githubRepo": "inflector",
+          "githubUrl": "https://github.com/whatisinternet/inflector",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/Inflector-0.11.4/src/lib.rs"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.11.0",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubCommit": "edc3859d830043d59179e7a26db6f952139c9483",
+          "githubTag": "v0.11.0",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base64-0.11.0/src/decode.rs"
+        },
+        {
+          "packageName": "wee_alloc",
+          "ecosystem": "CARGO",
+          "version": "0.4.5",
+          "githubOrg": "rustwasm",
+          "githubRepo": "wee_alloc",
+          "githubCommit": "e782897d7f6f63c7f99ebba5d3c4aefc178e2231",
+          "githubTag": "0.4.5",
+          "githubUrl": "https://github.com/rustwasm/wee_alloc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wee_alloc-0.4.5/src/lib.rs"
+        }
       ]
     }
   ],
