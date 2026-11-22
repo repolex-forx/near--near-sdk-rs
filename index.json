@@ -1,0 +1,11 @@
+{
+  "org": "near",
+  "repo": "near-sdk-rs",
+  "versions": [
+    {
+      "commit": "cadf4aaad9f5a31306b30d85bd92b8d87bc1d52e",
+      "tag": "v2.0.1",
+      "parsed_at": "2026-11-22T10:37:15.863880+00:00"
+    }
+  ]
+}
